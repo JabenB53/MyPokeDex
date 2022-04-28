@@ -1,0 +1,86 @@
+@media (max-width: 639px)
+{
+	.displayStyle
+	{
+	text-align: center;
+	margin: auto;
+	width: 30vw;
+	min-width: 250px;
+	box-shadow: 1px 1px 5px gray;
+	border-style: ridge;
+	border-width: 3px;
+	}
+}
+
+@media (min-width: 640px)
+{
+	.displayStyle
+	{
+	text-align: center;
+	margin: auto;
+	width: 30vw;
+	min-width: 250px;
+	box-shadow: 1px 1px 5px gray;
+	border-style: ridge;
+	border-width: 3px;
+	}
+}
+
+@media (min-width: 720px)
+{
+	.displayStyle
+	{
+	text-align: center;
+	margin: auto;
+	width: 50vw;
+	min-width: 250px;
+	box-shadow: 2px 2px 6px gray;
+	border-style: ridge;
+	border-width: 3px;
+	}
+}
+
+@media (min-width: 1080px)
+{
+	.displayStyle
+	{
+	text-align: center;
+	margin: auto;
+	width: 70vw;
+	min-width: 250px;
+	box-shadow: 3px 3px 7px gray;
+	border-style: ridge;
+	border-width: 4px;
+	}
+}
+
+body {
+	background-image: linear-gradient(rgb(212,44,44, 50), rgba(0,0,0,20), rgba(255,255,255,50));
+	background-size: 100vw;
+	background-repeat: no-repeat;
+}
+
+.displayStyle
+{
+background-color: lightgray;
+}
+
+.displayStyle:hover
+{
+box-shadow: 3px 3px 5px gray;
+transition: .4s;
+}
+
+.statNameStyle
+{
+width: auto;
+text-align: right;
+margin-right: auto;
+}
+
+.statBarStyle
+{
+width: auto;
+text-align: center;
+margin-right:auto;
+}
